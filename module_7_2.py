@@ -1,4 +1,3 @@
-from pprint import pprint
 def custom_write(file_name: str, strings: list[str]) -> dict:
     strings_positions = {}
     file = open(file_name, 'w', encoding= 'utf-8')
